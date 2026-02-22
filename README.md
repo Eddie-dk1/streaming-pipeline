@@ -36,6 +36,7 @@ rais/
 ├─ domains/
     └─ clickstream
 ```
+В проект не добавлены папки которые указаны выше
 
 ### **Сервисы Docker Compose**
 
