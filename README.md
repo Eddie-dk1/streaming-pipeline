@@ -22,12 +22,19 @@
 
 ```bash
 rais/
-├─ airflow/               # Airflow DAGs
+├─ airflow/              # Airflow DAGs
 │   └─ dags/
 │       └─ streaming_pipeline.py
 ├─ click_generator.py     # Скрипт генерации кликов
 ├─ window_aggregation.py  # Скрипт агрегации данных
 ├─ docker-compose.yml     # Определение всех сервисов
+├─ clickhouse
+├─ flink_job
+├─ terraform
+├─ dbt/
+    └─ models
+├─ domains/
+    └─ clickstream
 ```
 
 ### **Сервисы Docker Compose**
